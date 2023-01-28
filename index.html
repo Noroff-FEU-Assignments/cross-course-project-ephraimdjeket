@@ -1,16 +1,102 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My first website</title>
-  </head>
-  <body>
-    <h1>Hello world!</h1>
-    <p>Welcome to my first website.</p>
-    <h2>Web Security</h2>
-    <p id="web-security-question">How would you advise a potential client to secure his/her website from web security attacks? Note: the word count for your answer should not be greater than 250 words</p>
-    <p id="web-security-answer">There are several ways a client can secure his/her website from web security attacks. An important thing would be to add a security socket layer (SSL) which is a protocol that will allow user to send secure communication over their computer network and ensure that nobody else will tap into the content. 
-
-    Clients are also adviced to invest in a website vulnerability scanners that will be able to identify technical weaknesses on the website, including weaknesses that will be vurnerable to SQL injection and XSS attacks among many others. 
-    </p>
-  </body>
-</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="desktop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/12c76f5aa4.js" crossorigin="anonymous"></script>
+    <title>Home | Rainydays</title>
+</head>
+<body>
+    <header id="main-header">
+        <nav class="desktop">
+            <div class="logo-nav-container">
+                <a href="index.html"><img src="../images/rainyyy1.png" alt="Rainydays logo"></a>
+            </div>
+            <div class="menu">
+                <ul class>
+                    <li><a href="../index.html"><em>Home</em></a></li>
+                    <li><a href="../Jackets.html">Jackets</a></li>
+                    <li><a href="../About.html">About</a></li>
+                    <li><a href="../Contact.html">Contact</a></li>
+                </ul>
+            
+        </nav>
+        <a href="../index.html"><img src="../images/rainyyy1.png" alt="Rainydays logo" class="logo1"></a>
+        <nav id="main-nav">
+            <input id="hamburger" type="checkbox">
+            <label for="hamburger" class="hamburger"><i class="fa-solid fa-bars"></i></label>
+            <ul id="main-list" class="hidden">
+                <li><a href="../index.html"><em>Home</em></a></li>
+                <li><a href="../Jackets.html">Jackets</a></li>
+                <li><a href="../Checkout.html">Cart</a></li>
+                <li><a href="../About.html">About</a></li>
+                <li><a href="../Contact.html">Contact</a></li>
+            </ul>  
+        </nav>
+    </header>
+    <main>
+        <section class="showcase">
+            <div class="push1">
+                <div class="push2"></div>
+                <h1>Pushing The Comfort Zone</h1>
+                <p>Whatever your preferred outdoor activities are—hiking, fishing, camping, cycling, rock climbing,  or simply a walk,
+                rainydays has you covered. No matter the weather, you'll be able to experience the outdoors with the help of our high quality jackets.</p>
+                <div class="buttons-wrapper">
+                <div class="push1_button">
+                <a href="Jackets.html">Discover</a>
+                </div>
+                <div class="push2_button">
+                <a href="About.html">About</a>
+                </div>
+                </div>
+            </div>
+            <section class="showcase">
+            </section>
+            <section class="featured-collection">
+                <div class="title">
+                    <h2>Featured Collection</h2>
+                    </div>
+                    <div class="grid-container">
+                        <div class="jacket-box">
+                            <a href="Jackets.html"><img src="images/jake2.png" alt="Scott GT Wind Jacket" class="jacket2-img"></a>
+                            <h3>Scott GT Wind Jacket</h3>
+                            <p> A lightweight jacket designed to protect you against the wind and slim fit. Water-repellent with stretch and breathability to maximize freedom of movement and comfort.</p>
+                        </div>
+                        <div class="jacket-box">
+                            <a href="Jackets.html"><img src="images/jake3.png" alt="Soft-Shell Hi V Jacket" class="jacket3"></a>
+                            <h3>Soft-Shell Hi V Jacket</h3>
+                            <p> Soft-Shell Hi Vi jacket designed for
+                                high performance cycling to tackle
+                                wind and heavy rain. An adaptable
+                                jacket which features a temp sensitive
+                                membrane to suit the riders temperature
+                                hot or cold.</p>
+                        </div>
+                        <div class="jacket-box">
+                            <a href="Jackets.html"><img src="images/jake4.png" alt="First Watch AC 1100 Flotation Coat" class="jacket4"></a>
+                            <h3>First Watch AC 1100 Flotation Coat</h3>
+                            <p> Protect yourself from the cold with
+                                the First Watch AC-1100 Floating Coat.
+                                Reinforced durability with comfort 
+                                designed to withstand harsh weather.</p>
+                        </div>
+                    </div>
+                </section> 
+        </section>      
+    </main>
+    <footer class="desktop-footer-sticky">
+        <div class="footer-wrapper">
+            <p>© 2022-2023 Rainydays</p>
+            <div class="icons">
+                <a href="#"><img src="./Images/f.svg" alt="facebook icon"></a>
+                <a href="#"><img src="./Images/insta.png" alt="instagram icon"></a>
+                <a href="#"><img src="./Images/youtube.png" alt="youtube icon"></a>
+                <a href="https://twitter.com/home"><img src="./Images/twitter.png" alt="twitter icon"></a>
+            </div>
+        </div>
+    </footer> 
