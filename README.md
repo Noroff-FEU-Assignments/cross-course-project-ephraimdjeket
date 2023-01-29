@@ -10,8 +10,8 @@ the best approach to this. There's also a vertical scrollbar in the hamburger me
 for me. 
 
 Screenshots of website (NOTE: Zoomed to 80% for full visibility)
-![image](https://user-images.githubusercontent.com/45997915/215336464-4d33e10b-027c-4a58-8dc8-40d0095553c2.png)
-![image](https://user-images.githubusercontent.com/45997915/215336559-d9287075-54a6-4221-a4e5-3ced3f17670c.png)
+![image](https://user-images.githubusercontent.com/45997915/215337876-967e9fd7-ec6d-4d63-a380-3e9f28dab61a.png)
+[![image](https://user-images.githubusercontent.com/45997915/215336559-d9287075-54a6-4221-a4e5-3ced3f17670c.png)](https://gyazo.com/89adaca9343895f3a5105c5b4aca131c)
 
 
 
