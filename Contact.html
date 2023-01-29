@@ -58,15 +58,26 @@
             <h1>Contact form</h1>
             <form>
                 <div class="double-input">
-                    <input type="text" placeholder="First name">
-                    <input type="text" placeholder="Last name">
+                    <label for="first-name">
+                    <input id="first-name" type="text" placeholder="First name">
+                    </label>
+
+                    <label for="last-name">
+                    <input id="last-name" type="text" placeholder="Last name">
+                </label>
                 </div>
                 <div class="double-input">
-                    <input type="text" placeholder="Email">
-                    <input type="text" placeholder="Phone">
+                    <label for="email">Email:</label>
+                    <input id="email" type="text" placeholder="Email">
+
+                    <label for="phone">Phone:</label>
+                    <input id="phone" type="text" placeholder="Phone">
                 </div>
-                <input type="text" placeholder="Address">
-                <textarea class="text-left" placeholder="Type your message here..."></textarea>
+                <label for="address">Address:</label>
+                <input id="address" type="text" placeholder="Address">
+
+                <label for="message">Message:</label>
+                <textarea id="message" class="text-left" placeholder="Type your message here..."></textarea>
             </form>
             <input class="contact-submit-button" type="submit" value="Submit">
         </section>
