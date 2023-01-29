@@ -194,7 +194,8 @@
     .checkout-section {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 800px;
+        grid-template-rows: 500px;
+        margin-top: 90px;
         }
 
     .frames {

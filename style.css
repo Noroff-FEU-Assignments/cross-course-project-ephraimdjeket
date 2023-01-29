@@ -142,7 +142,7 @@ img {
     margin-left: 108px;
     width: 90px;
     height: 24px;
-    background-color: #E14D2A;
+    background-color: #DA310B;
     color: white;
     border-radius: 5px;
     margin-top: 20px;
@@ -281,7 +281,7 @@ img {
 .cart  {
     width: 111px;
     height: 28px;
-    background-color: #E14D2A;
+    background-color: #DA310B;
     border-radius: 5px;
     border-radius: none;
     border-style: none;
@@ -324,7 +324,7 @@ img {
  
 /* Footer */
 .footer-wrapper {
-    background-color: #E14D2A;
+    background-color: #DA310B;
     color: white;
     padding: 30px;
     display: flex;
@@ -349,6 +349,13 @@ img {
     font-size: 18px;
 }
 
+.fa-brands {
+    color: white;
+    font-size: 18px;
+    float: right;
+    margin-bottom: 2px;
+}
+
 .desktop-full-body-height {
     min-height: 100vh;
     display: flex;
@@ -365,7 +372,7 @@ img {
     height: 276px;
     width: 330px;
     background-color: rgba(154, 154, 154, 0.34);
-    border: #E14D2A 2px solid;
+    border: #DA310B 2px solid;
     margin: auto;
     margin-top: 50px;
 }
@@ -397,7 +404,7 @@ img {
 .cart-product {
     width: 111px;
     height: 28px;
-    background-color: #E14D2A;
+    background-color: #DA310B;
     border-radius: 5px;
     border-radius: none;
     border-style: none;
@@ -582,7 +589,7 @@ img {
 }
 
 .checkout-btn {
-    background-color: #E14D2A;
+    background-color: #DA310B;
     width: 199px;
     height: 43px;
     border-radius: 15px;
@@ -637,7 +644,7 @@ img {
 
 /* Contact Page */
 .contact-hero {
-    background-color: #E14D2A;
+    background-color: #DA310B;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -726,7 +733,7 @@ img {
     border: none;
     width: 248px;
     height: 40px;
-    background-color: #E14D2A;
+    background-color: #DA310B;
     color: white;
     border-radius: 5px;
     float: left;
@@ -807,7 +814,7 @@ img {
 
 .checkout-success-continue-btn {
     border: none;
-    background-color: #E14D2A;
+    background-color: #DA310B;
     color: white;
     border-radius: 5px;
     padding: 10px 20px 10px 20px;
