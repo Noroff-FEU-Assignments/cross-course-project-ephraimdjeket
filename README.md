@@ -9,6 +9,13 @@ started working on the desktop version of my website and I later decided to star
 the best approach to this. There's also a vertical scrollbar in the hamburger menu, which one of the teachers gave me feedback on how to solve, but it didn't work
 for me. 
 
+There were a few things that I found complicated, like the menu overlay. I always attempted to do things myself first, and then when stuck, I'd either ask teacher/students for help
+or use stackoverflow/youtube and search on how to solve the specific problems I had to resolve my issues. I was not able to find all answers to my problems, but I did the best I could.
+
+VS Code editor extensions used:
+- Live server to deploy local version of website
+- Prettier for code formatting
+
 Screenshots of website (NOTE: Zoomed to 80% for full visibility)
 ![image](https://user-images.githubusercontent.com/45997915/215336464-4d33e10b-027c-4a58-8dc8-40d0095553c2.png)
 ![image](https://user-images.githubusercontent.com/45997915/215336559-d9287075-54a6-4221-a4e5-3ced3f17670c.png)
@@ -20,4 +27,4 @@ Screenshots of website (NOTE: Zoomed to 80% for full visibility)
 
 Refrences 
 1. https://stackoverflow.com/
-2. 
+2. www.youtube.com
