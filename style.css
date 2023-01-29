@@ -70,13 +70,12 @@ img {
  
 #main-list {
     position: absolute;
-    font-weight: 600;
-    font-size: 24px;
     margin: 30px 0px; 
 }
  
 #main-list li {
     font-size: 21px;
+    font-weight: 700;
     margin: 30px 10px;  
     margin-left: 30px;
     padding: 4px;
@@ -460,10 +459,9 @@ img {
     margin: 10px 0px;
     margin-left: 20px;
     margin-right: 81px;
-
-    
 }
- 
+
+
  
 .cart-wrapper p {
     font-weight: 700;
