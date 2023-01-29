@@ -840,7 +840,7 @@ img {
   .contact-form textarea {
     width: 50%;
   }
-  @media only screen and (max-width: 1500px) {
+  @media only screen and (max-width: 3000px) {
     .double-input {
       flex-direction: column;
     }
