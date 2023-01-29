@@ -129,24 +129,35 @@ img {
     justify-content: space-around;
 }
 
-.buttons-wrapper {
-    width: 200px;
+.cta-buttons {
+    width: 300px;
+    height: 200px;
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    margin-left: 39px;
+    margin-top: 20px;
+}
+
+.push2_button {
+    background-color: #DA310B;
+    color: white;
+    border-radius: 5px;
+    width: 90px;
+    height: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 40px;
+    
 }
  
-.push1_button, .push2_button {
+.push1_button {
     border: none;
-    margin-top: 20px;
-    margin-left: 108px;
     width: 90px;
     height: 24px;
     background-color: #DA310B;
     color: white;
     border-radius: 5px;
-    margin-top: 20px;
-    margin-left: 60px;
-    margin-right: -33px;
     cursor: pointer;
     text-decoration: none;
     text-align: center;
