@@ -819,4 +819,46 @@ img {
     font-size: 18px;
 }
 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .double-input {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .double-input label,
+  .contact-form label {
+    width: 45%;
+    text-align: right;
+    padding-right: 1rem;
+  }
+  .double-input input,
+  .contact-form textarea {
+    width: 50%;
+  }
+  @media only screen and (max-width: 1500px) {
+    .double-input {
+      flex-direction: column;
+    }
+    .double-input label,
+    .contact-form label {
+      width: 100%;
+      text-align: left;
+      padding: 0;
+      margin-bottom: 0.5rem;
+    }
+    .double-input input,
+    .contact-form textarea {
+      width: 100%;
+    }
+  }
+
+  .contact-form label {
+    float: left;
+  }
+  
 
