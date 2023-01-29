@@ -11,6 +11,8 @@ for me.
 
 Screenshots of website (NOTE: Zoomed to 80% for full visibility)
 ![image](https://user-images.githubusercontent.com/45997915/215336464-4d33e10b-027c-4a58-8dc8-40d0095553c2.png)
+![image](https://user-images.githubusercontent.com/45997915/215336559-d9287075-54a6-4221-a4e5-3ced3f17670c.png)
+
 
 
 
