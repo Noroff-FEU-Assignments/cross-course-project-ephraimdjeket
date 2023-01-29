@@ -10,7 +10,9 @@ the best approach to this. There's also a vertical scrollbar in the hamburger me
 for me. 
 
 Screenshots of website (NOTE: Zoomed to 80% for full visibility)
-image.png
+![image](https://user-images.githubusercontent.com/45997915/215336464-4d33e10b-027c-4a58-8dc8-40d0095553c2.png)
+
+
 
 
 
