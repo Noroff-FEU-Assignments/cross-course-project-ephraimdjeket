@@ -3,7 +3,6 @@ spinner.classList.add('spinner-visible');
 fetch(BASEURL + ALLPRODUCTS)
   .then(response => response.json())
   .then(data => {
-    // Hide the spinner
     spinner.classList.remove('spinner-visible');
 
     data.forEach(function(jacket) {
@@ -32,9 +31,6 @@ fetch(BASEURL + ALLPRODUCTS)
     });
   })
   .catch(error => {
-    // Handle errors
-
-    // Hide the spinner
     spinner.classList.remove('spinner-visible');
   });
 

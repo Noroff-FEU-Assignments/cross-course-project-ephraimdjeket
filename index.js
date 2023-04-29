@@ -26,8 +26,5 @@ fetch(BASEURL + ALLPRODUCTS)
                             </div>`
 })
 .catch(error => {
-    // Handle errors
-
-    // Hide the spinner
     spinner.classList.remove('spinner-visible');
   });
