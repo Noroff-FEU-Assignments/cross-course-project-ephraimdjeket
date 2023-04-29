@@ -21,7 +21,6 @@ body {
     position: relative;
 }
  
- 
 /*Header*/
  
 header {
@@ -171,6 +170,11 @@ img {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.jackethome-img {
+    max-height: 300px;
+}
+
  
  
  
@@ -256,7 +260,7 @@ img {
 }
  
 .jacket-img {
-    background-color: rgba(154, 154, 154, 0.34);
+    /* background-color: rgba(154, 154, 154, 0.34); */
     width: 310px;
     height: 208px;
     display: flex;
@@ -297,7 +301,6 @@ img {
     border-style: none;
     cursor: pointer;
     float: right;
-    color: white;
     text-align: center;
 }
 
@@ -321,14 +324,23 @@ img {
 }
  
 .h2btn {
-    margin-left: 20px;
-    max-width: 310px;
+    max-width: 150px;
     margin: auto;
+    
 }
  
 .cart {
     margin-top: 10px;
     float: right;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-c {
+    margin-right: 100px
 }
  
  
