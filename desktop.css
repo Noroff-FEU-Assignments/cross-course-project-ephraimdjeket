@@ -193,6 +193,8 @@
 
     .product-title h1, .add-price-wrapper h2 {
         font-size: 20px;
+        text-align: left;
+        margin-bottom: 10px
     }
 
     .desc-wrapper p {

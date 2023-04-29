@@ -9,7 +9,7 @@ fetch(BASEURL + ALLPRODUCTS)
         const JACKETCONTAINER = document.querySelector(".container");
         JACKETCONTAINER.innerHTML +=`<div>
                                     <div class="jacket-img">
-                                    <a href="Products/Product1.html${jacket.id}"><img src="${jacket.image}" alt="jacket 1" class="img1"></a>
+                                    <a href="details.html?id=${jacket.id}"><img src="${jacket.image}" alt="jacket 1" class="img1"></a>
                                     </div>
                                     <section class="content-c">
                                     <div class="h2btn">
