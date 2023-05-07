@@ -1,3 +1,5 @@
+https://phenomenal-dango-32c282.netlify.app/index.html
+
 # cross-course-project-Dertzey
 cross-course-project-Dertzey created by GitHub Classroom
 
@@ -11,6 +13,27 @@ for me.
 
 There were a few things that I found complicated, like the menu overlay. I always attempted to do things myself first, and then when stuck, I'd either ask teacher/students for help
 or use stackoverflow/youtube and search on how to solve the specific problems I had to resolve my issues. I was not able to find all answers to my problems, but I did the best I could.
+
+Javascript 1 (Updated)
+After learning some basic javascript, we were tasked to:
+
+1. Look through your website and assess where API calls need to be made to dynamically add content. You should have a products page and a product details page, but there might be other pages like the home page where products are loaded.
+
+2. Remove the hardcoded products from the HTML.
+
+3. Fetch the products from the API and dyncamically add them to the page with links to the product details page. Use the ID as a query string parameter so that on the product details page you know which item has been clicked on.
+
+4. On the product details page make a request to the API for the specific data for the product that the user has clicked on.
+
+5. Add loading indicators when making API calls.
+
+6. Ensure proper error handling.
+
+7. Test the site.
+
+8. Remove console.logs you’ve been using for testing.
+
+9. Deliver the link to your site and your repository.
 
 VS Code editor extensions used:
 - Live server to deploy local version of website
