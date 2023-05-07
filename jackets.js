@@ -3,7 +3,6 @@ spinner.classList.add('spinner-visible');
 fetch(BASEURL + ALLPRODUCTS)
   .then(response => response.json())
   .then(data => {
-    spinner.classList.remove('spinner-visible');
 
     data.forEach(function(jacket) {
         const JACKETCONTAINER = document.querySelector(".container");
@@ -30,7 +29,7 @@ fetch(BASEURL + ALLPRODUCTS)
                                     </section>`;
     });
   })
-  .catch(error => {
+  .catch(error => { console.log('An error occurred:', error);
     spinner.classList.remove('spinner-visible');
   });
 

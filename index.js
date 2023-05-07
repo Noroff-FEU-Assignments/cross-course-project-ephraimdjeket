@@ -25,6 +25,6 @@ fetch(BASEURL + ALLPRODUCTS)
                             <p>${data[0].description}</p>
                             </div>`
 })
-.catch(error => {
-    spinner.classList.remove('spinner-visible');
-  });
+.catch(error => { console.log('An error occurred:', error);
+spinner.classList.remove('spinner-visible');
+});

@@ -28,6 +28,6 @@ fetch(URLID)
       </div>`; 
       document.title = `${data.title}`;
   })
-  .catch(error => console.error(error));
-  
- 
+  .catch(error => { console.log('An error occurred:', error);
+    spinner.classList.remove('spinner-visible');
+  });
