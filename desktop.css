@@ -19,7 +19,7 @@
     100% { transform: rotate(360deg); }
   }
 
-@media (min-width: 768px) {
+@media (min-width: 751px) {
     .desktop-full-body-height {
         min-height: 100vh;
         display: flex;
@@ -123,6 +123,23 @@
         grid-template-columns: repeat(3, 1fr); 
         grid-gap: 30px;
         margin-bottom: 40px;
+    }
+
+    .jackethome-img {
+        width: 50%;
+        padding: 5px;
+      }
+
+      .jacket-box h3 {
+        font-size: 16px;
+        text-align: center;
+        padding: 5px;
+    }
+     
+    .jacket-box p {
+        font-size: 16px;
+        text-align: center;
+        padding: 5px;
     }
 
     /* Jackets */
@@ -398,7 +415,24 @@
 
     .hide-mobile {
         display: none;
-      }  
+      }
+
+      .jackethome-img {
+        width: 50%;
+        padding: 5px;
+      }
+
+      .jacket-box h3 {
+        font-size: 16px;
+        text-align: center;
+        padding: 5px
+    }
+     
+    .jacket-box p {
+        font-size: 16px;
+        text-align: center;
+        padding: 5px
+    }
 }
 
 
@@ -427,6 +461,8 @@
         margin: 0;
     }
 
+    
+
     /* Contact */
   .contact-hero {
     display: grid;
@@ -449,7 +485,9 @@
 }
   .hide-mobile {
     display: none;
-  }  
+  }
+  
+  
 }
 
 
