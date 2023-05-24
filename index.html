@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="desktop.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/12c76f5aa4.js" crossorigin="anonymous"></script>
     <title>Home | Rainydays</title>
     <script src="index.js" defer></script>
+    <script src="toggle.js" defer></script>
     <!-- Hotjar Tracking Code for https://phenomenal-dango-32c282.netlify.app/index.html -->
 <script>
     (function(h,o,t,j,a,r){
@@ -25,21 +27,22 @@
 </script>
 </head>
 <body>
-    <header id="main-header">
+    <header class="main-header">
         <nav class="desktop">
             <div class="logo-nav-container">
-                <a href="index.html"><img src="../images/rainyyy1.png" alt="Rainydays logo"></a>
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="../index.html"><em>Home</em></a></li>
+                    <li><a href="../index.html">Home</a></li>
                     <li><a href="../Jackets.html">Jackets</a></li>
                     <li><a href="../About.html">About</a></li>
                     <li><a href="../Contact.html">Contact</a></li>
+                    <i class="bi bi-moon-stars-fill" id="toggleDark"></i>
                 </ul>
             </div>
         </nav>
         <a href="../index.html"><img src="../images/rainyyy1.png" alt="Rainydays logo" class="logo1"></a>
+        <i class="bi2" class="toggleDark1"></i>
         <nav id="main-nav">
             <input id="hamburger" type="checkbox">
             <label for="hamburger" class="hamburger"><i class="fa-solid fa-bars"></i></label>
