@@ -29,11 +29,6 @@ header {
     display: flex;
     justify-content: space-between;
 }
- 
-.logo1 {
-    margin-top: 10px;
-    margin-left: 20px;
-}
 
 .search {
     background-color: white;
@@ -227,7 +222,7 @@ img {
     
     label.hamburger {
       position: absolute;
-      top: 2px;
+      top: 7px;
       right: 10px;
       width: 50px;
       height: 50px;
@@ -247,19 +242,12 @@ img {
 
     .search-wrapper1 {
     display: flex;
-    justify-content: space-around;
+    margin-right: 50px;
     margin-top: 15px;
     }
 
     .search-wrapper {
         display: none;
-    }
-
-    .bi2 {
-        display: flex;
-        align-items: center;
-        font-size: 20px;
-        cursor: pointer;
     }
 
     .search1 {
@@ -268,13 +256,22 @@ img {
         color: black;
         border-radius: 13px;
         height: 25px;
-        width: 140px;
+        width: 100px;
     }
 
     .search1::placeholder {
         color: black;
-        padding-left: 10px;
-        font-size: 13px;
+        padding-left: 5px;
+        font-size: 11px;
+    }
+
+    .hide-mobile {
+        font-size: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 20px;
+        cursor: pointer;
     }
  
     .desktop {
@@ -288,6 +285,26 @@ img {
         margin-bottom: 40px; 
  
     }
+
+    .logo1 {
+        margin-top: 5px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.jacket-box {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px 40px;
+}
+
+.jacket-box:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
  
 .jacket-box, p {
@@ -326,6 +343,11 @@ img {
     justify-content: center;
     margin: auto;
     margin-top: 20px;
+}
+
+.jacket-img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
  
  

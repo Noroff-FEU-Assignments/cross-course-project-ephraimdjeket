@@ -1,14 +1,18 @@
 const searchInputs = document.querySelector(".search");
+const searchMobile = document.querySelector(".search1");
 const jacketContainer = document.querySelector('.container');
-
+const spinner = document.querySelector('.spinner');
+const BASEURL = "https://api.noroff.dev/api/v1/";
+const ALLPRODUCTS = "rainy-days";
+const SINGLEPRODUCT = "rainy-days/" //id for each product needs to be included
 
 let allJackets = [];
 
 
 function filterJackets() {
   const searchTerm = searchInputs.value.toLowerCase();
-  // const searchTermMobile = searchMobile.value().toLowerCase();
-  const filteredJackets = allJackets.filter(jacket => jacket.title.toLowerCase().includes(searchTerm));
+  const searchTermMobile = searchMobile.value.toLowerCase();
+  const filteredJackets = allJackets.filter(jacket => jacket.title.toLowerCase().includes(searchTerm) && jacket.title.toLowerCase().includes(searchTermMobile));  
   jacketContainer.innerHTML = '';
   filteredJackets.forEach(jacket => {
     jacketContainer.innerHTML += `
@@ -55,4 +59,5 @@ function fetchJackets() {
     });
 }
 searchInputs.addEventListener('input', filterJackets);
+searchMobile.addEventListener('input', filterJackets);
 fetchJackets();

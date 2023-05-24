@@ -1,5 +1,4 @@
-const toggle = document.getElementById("toggleDark");
-const toggleMobile = document.querySelector(".toggleDark1");
+const toggle = document.querySelector(".toggleDark");
 const body = document.querySelector("body");
 const logo = document.querySelector(".logo-nav-container");
 const logoMobile = document.querySelector(".logo1");

@@ -1,3 +1,7 @@
+const BASEURL = "https://api.noroff.dev/api/v1/";
+const ALLPRODUCTS = "rainy-days";
+const SINGLEPRODUCT = "rainy-days/" //id for each product needs to be included
+
 const QUERYSTRING = document.location.search;
 
 const PARAMS = new URLSearchParams(QUERYSTRING)
@@ -5,6 +9,8 @@ const PARAMS = new URLSearchParams(QUERYSTRING)
 const ID = PARAMS.get("id");
 
 const URLID = BASEURL + SINGLEPRODUCT + ID;
+const spinner = document.querySelector('.spinner');
+
 
 
 
