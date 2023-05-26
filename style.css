@@ -197,7 +197,7 @@ img {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     background-color: white;
-    padding: 5px 10px;
+    padding: 5px 1px;
     height: 380px;
 }
 
@@ -232,7 +232,7 @@ img {
 }
 
 .product-title h1 {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .add-price-wrapper h2 {
@@ -255,8 +255,12 @@ a {
   }
 
   .cardContent {
-    padding: 20px 0px;
     text-align: center;
+  }
+
+  .cardP {
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   
 
@@ -369,9 +373,6 @@ a {
 .jacket-box p {
     font-size: 13px;
     text-align: center;
-    padding: 5px 5px;
-
-
 }
 
 .jackethome-img {
