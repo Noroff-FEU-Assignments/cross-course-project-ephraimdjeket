@@ -939,6 +939,7 @@ a {
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
+    color: black;
 }
 
 .checkout-success-text {
@@ -1040,6 +1041,8 @@ a {
   .contact-form label {
     float: left;
   }
+
+  
 
   
   
