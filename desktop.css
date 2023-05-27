@@ -57,6 +57,7 @@
     .bi {
         font-size: 20px;
         cursor: pointer;
+        padding: 5px 10px;
     }
 
     body {
@@ -94,9 +95,10 @@
         font-size: 20px;
     }
 
-    .menu ul li a:hover {
+    .menu ul li a:hover, .bi:hover {
         border-bottom: 1px solid black;
     }
+
 
     /* Home */
     .push1 h1,

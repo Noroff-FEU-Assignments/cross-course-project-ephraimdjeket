@@ -2,7 +2,7 @@ const toggle = document.querySelectorAll(".toggleDark");
 const body = document.querySelector("body");
 const logo = document.querySelector(".logo-nav-container");
 const logoMobile = document.querySelector(".logo1")
-const navColor = document.querySelectorAll(".menu a");
+const navColor = document.querySelectorAll(".menu a, .bi");
 const arrowColor = document.querySelector(".fa-sharp");
 const hamburgerBars = document.querySelector(".fa-bars");
 
