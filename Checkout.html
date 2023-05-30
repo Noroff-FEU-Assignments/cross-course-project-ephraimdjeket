@@ -61,7 +61,7 @@
         <section class="checkout-section">
             <div>
                 <div class="cart-wrapper">
-                    <h2>Shopping cart (3 products)</h2>
+                    <h1>Shopping cart (3 products)</h1>
                     <section class="cart-section">
                     </section>
                 </div>
@@ -103,10 +103,33 @@
                     </div>
                     </div>
                   </form>
-                  <div class="checkout-btn">
-                <a href="Checkout_Success.html">Checkout</a>
-                  </div>
             </div>
+    </section>
+    <span class="lineO"></span>
+    <section class="PaymentHead">
+        <h2>Payment Information</h2>
+        <div class="payment-wrapper">
+            <form action="Checkout_Success.html" class="payment-wrapper">
+                <div class="firstRow">
+                  <label for="first-name">Cardholder</label><br>
+                  <input type="text" id="first-name" placeholder="First Name">
+                  <input type="text" id="last-name" placeholder="Last Name">
+                </div>
+              
+                <div class="secondRow">
+                  <label for="card-number">Card information</label><br>
+                  <input type="text" class="cardnumber" id="card-number" placeholder="Card Number">
+                  <input type="text" id="ccv" placeholder="CCV">
+                </div>
+              
+                <div class="thirdRow">
+                  <label for="exp-month">Expiration Date</label><br>
+                  <input type="text" id="exp-month" name="exp-month" placeholder="MM" pattern="\d{2}" maxlength="2" required>
+                  <input type="text" id="exp-year" name="exp-year" placeholder="YY" pattern="\d{2}" maxlength="2" required>
+                </div>
+                <a href="Checkout_Success.html"><input type="submit" value="Checkout" class="checkout-btn"></a>
+              </form>              
+        </div>
     </section>
     </main>
     <footer class="desktop-footer-sticky">

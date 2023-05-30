@@ -262,6 +262,48 @@ a {
     overflow: hidden;
     text-overflow: ellipsis;
   }
+
+.lineO {
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    margin: 20px;
+}
+
+.PaymentHead h2 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.payment-wrapper {
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.firstRow, .secondRow, .thirdRow, .checkout-btn {
+    padding: 10px;
+    margin: auto;
+    
+}
+
+.checkout-btn {
+   cursor: pointer; 
+}
+
+.payment-wrapper label {
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.payment-wrapper input {
+    height: 30px;
+    width: 200px;
+    padding-left: 10px;
+}
   
 
  
@@ -361,6 +403,39 @@ a {
         margin-left: 10px;
         display: flex;
         align-items: center;
+    }
+
+    .PaymentHead h2 {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 10px;
+    }
+    
+    .payment-wrapper {
+        padding-bottom: 60px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .firstRow, .secondRow, .thirdRow, .checkout-btn {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 10px;
+        margin: auto;
+    }
+    
+    .payment-wrapper label {
+        font-size: 16px;
+        font-weight: bold;
+    
+    }
+    
+    .payment-wrapper input {
+        height: 30px;
+        width: 200px;
+        padding-left: 10px;
+        margin-bottom: 10px;
     }
 }
 
@@ -767,20 +842,17 @@ a {
 }
 
 .checkout-btn {
+    display: block;
     background-color: #DA310B;
-    width: 199px;
-    height: 43px;
-    border-radius: 15px;
     border: none;
-    margin-left: 20px;
-    margin-top: 20px;
-    padding-top: 10px;
     text-align: center;
+    color: white;
+    margin-top: 20px;
+    align-items: center;
 }
 
-.checkout-btn a {
-    color: white;
-}
+
+  
 /* About */
 .showcase3 {
     text-align: center;
@@ -1041,6 +1113,8 @@ a {
   .contact-form label {
     float: left;
   }
+
+  
 
   
 
