@@ -5,7 +5,6 @@ const logoMobile = document.querySelector(".logo1")
 const navColor = document.querySelectorAll(".menu a, .bi");
 const arrowColor = document.querySelector(".fa-sharp");
 const hamburgerBars = document.querySelector(".fa-bars");
-const line = document.querySelector(".lineO");
 
 const storedMode = localStorage.getItem('mode');
 
@@ -39,7 +38,6 @@ function enableLightMode(withTransition) {
   }
   body.style.background = "white";
   body.style.color = "black";
-  line.style.color = "black";
   logo.innerHTML = '<a href="index.html"><img src="../images/rainyyy1.png" alt="Rainydays logo" class="logo-switch"></a>';
   logoMobile.innerHTML = '<a href="../index.html"><img src="../images/rainyyy1.png" alt="Rainydays logo" class="logo1"></a>'
   hamburgerBars.style.color = "black";
@@ -57,7 +55,6 @@ function enableDarkMode(withTransition) {
   }
   body.style.background = "#3A3B3C";
   body.style.color = "white";
-  line.style.color = "white";
   logo.innerHTML = '<a href="index.html"><img src="../images/rainyyy1w.png" alt="Rainydays logo" class="logo-switch"></a>';
   logoMobile.innerHTML = '<a href="../index.html"><img src="../images/rainyyy1w.png" alt="Rainydays logo" class="logo1"></a>'
   hamburgerBars.style.color = "white";

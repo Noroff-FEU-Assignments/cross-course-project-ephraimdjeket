@@ -263,13 +263,6 @@ a {
     text-overflow: ellipsis;
   }
 
-.lineO {
-    border: 1px solid;
-    width: 100%;
-    display: flex;
-    margin: 20px;
-}
-
 .PaymentHead h2 {
     display: flex;
     justify-content: space-around;
@@ -704,7 +697,7 @@ a {
 /* Shopping Cart */
 .cart-wrapper {
     width: 330px;
-    height: 267px;
+    height: 100px;
     margin: auto;
 }
  
@@ -712,8 +705,18 @@ a {
     font-weight: 700;
     font-size: 18px;
     margin: 10px 0px;
-    margin-left: 20px;
-    margin-right: 81px;
+    margin: auto;
+}
+
+.date-wrapper {
+    margin-bottom: 80px;
+    text-align: left;
+    margin: auto;
+    height: 68px;
+}
+
+.date-wrapper h2, .checkout-wrapper h2 {
+    font-size: 18px;
 }
 
 
@@ -765,12 +768,6 @@ a {
     margin-top: 7px;
 }
  
-.date-wrapper p {
-    text-align: left;
-    margin-left: 20px;
-    margin-top: 6px;
-    font-weight: 500;
-}
  
 .checkout-wrapper {
     width: 330px;
@@ -779,8 +776,7 @@ a {
     margin-top: 0px;
 }
 
-.checkout-wrapper h1 {
-    margin-left: 22px;
+.checkout-wrapper h2 {
     margin-bottom: 30px;
     margin-top: 20px;
     
@@ -803,7 +799,7 @@ a {
 
 .line {
     margin: 12px 15px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid;
     display: block;
     width: 233px;
     

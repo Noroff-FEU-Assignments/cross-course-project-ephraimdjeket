@@ -251,12 +251,8 @@
         height: inherit;
     }
 
-    .cart-wrapper, .date-wrapper {
-        width: 530px;
-    }
-
     .cart-wrapper h1 {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .cart-wrapper p  {
@@ -417,6 +413,7 @@
         text-align: center;
         padding: 5px
     }
+    
 }
 
 
