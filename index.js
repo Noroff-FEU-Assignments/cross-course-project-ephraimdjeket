@@ -15,7 +15,7 @@ fetch(BASEURL + ALLPRODUCTS)
                             <div class="jacket-box">
                             <div class="cardContent">
                             <div>
-                            <img src="${data[1].image}" class="jackethome-img">
+                            <img src="${data[1].image}" alt="Rainy Days M83 Jacket" class="jackethome-img">
                             </div>
                             <h3>${data[1].title}</h3>
                             <div class="cardP">
