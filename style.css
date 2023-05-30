@@ -113,6 +113,7 @@ img {
  
 /* Main */
 .push1 {
+    background-color: black;
     background-image: url('./images/background12.jpg');
     background-size: cover;
     background-repeat: no-repeat;
