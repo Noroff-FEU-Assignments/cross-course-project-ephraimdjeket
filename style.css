@@ -856,6 +856,7 @@ a {
 }
 
 .showcase3 .img-container  {
+    background-color: black;
     background-image: url("images/image\ 7.png");
     background-position: center;
     min-height: 400px;
