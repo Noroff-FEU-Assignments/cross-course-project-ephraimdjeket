@@ -335,7 +335,6 @@ a {
     }
         
     label.hamburger {
-    background-image: url('hamburger-icon.png');
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
