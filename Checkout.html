@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Checkoutpage of rainydays. Credit/debit and paypal">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="desktop.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/12c76f5aa4.js" crossorigin="anonymous"></script>
+        <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+        <title>Home | Rainydays</title>
+    </head>
+    <body class="desktop-full-body-height">
+    <header id="main-header">
+        <nav class="desktop">
+            <div class="logo-nav-container">
+                <a href="index.html"><img src="../images/rainyyy1.png" alt="Rainydays logo"></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../Jackets.html">Jackets</a></li>
+                    <li><a href="../About.html">About</a></li>
+                    <li><a href="../Contact.html">Contact</a></li>
+                    <li class="shopping-list1">
+                    <img src="../images/Group13.png"  alt="shopping-cart icon with notifications">
+                </ul>
+            </div>
+        </nav>
+        <a href="../index.html"><img src="../images/rainyyy1.png" alt="Rainydays logo" class="logo1"></a>
+        <nav id="main-nav">
+            <img src="../images/Group13.png" class="shopping-list" alt="shopping-cart icon with notifications">
+            <input id="hamburger" type="checkbox">
+            <label for="hamburger" class="hamburger"><i class="fa-solid fa-bars"></i></label>
+            <ul id="main-list" class="hidden">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../Jackets.html">Jackets</a></li>
+                <li><a href="../Checkout.html"><em>Cart</em></a></li>
+                <li><a href="../About.html">About</a></li>
+                <li><a href="../Contact.html">Contact</a></li>
+            </ul>  
+        </nav>
+    </header>
+    <main>
+        <section class="checkout-section">
+            <div>
+                <div class="cart-wrapper">
+                    <h2>Shopping cart (3 products)</h2>
+                    <section class="cart-section">
+                    <div class="frames">
+                        <div class="frame">
+                            <img src="../images/RainyDays_Jacket1.png" class="jacket-cart" alt="1x First Watch AC 1100 
+                            Floatation Coat">
+                        </div>
+                        <p class="cart-text">1x First Watch AC 1100 Floatation Coat</p>
+                    </div>
+                    <div class="frames">
+                        <div class="frame">
+                            <img src="../images/RainyDays_Jacket2.png" class="jacket-cart" alt="1x Scott GT Wind Jacket">
+                        </div>
+                        <p class="cart-text">1x Scott GT Wind Jacket</p>
+                    </div>
+                    <div class="frames">
+                        <div class="frame">
+                            <img src="../images/RainyDays_Jacket3.png" class="jacket-cart" alt="1x Soft-Shell Hi Vi Jacket">
+                        </div>
+                        <p class="cart-text">1x Soft-Shell Hi Vi Jacket</p>
+                    </div>
+                    </section>
+                </div>
+                <div class="date-wrapper">
+                    <h2>Expected delivery</h2>
+                    <p>Mon, 21.08 - Fri,27.11</p>
+                </div>
+            </div>
+            <div class="checkout-wrapper">
+                <h2>Total amount</h2>
+                <div class="product-price">
+                    <p>Products:</p>
+                    <p>€1 194</p>
+                </div>
+                <div class="shipping-price">
+                    <p>Shipping:</p>
+                    <p>€99</p>
+                </div>
+                <span class="line"></span>
+                <div class="total-price">
+                <p>Total:</p>
+                <p>€1 293</p>
+                </div>
+                <form>
+                    <div class="creditdebit-wrapper">
+                    <input type="radio" id="creditdebit" name="paymentmethod" value="creditdebit" checked>
+                    <label for="creditdebit">Credit/Debit card</label><br>
+                    <div class="cards">
+                    <iconify-icon icon="logos:visa"></iconify-icon>
+                    <iconify-icon icon="logos:mastercard"></iconify-icon>
+                    <iconify-icon icon="fontisto:american-express"></iconify-icon>
+                    </div>
+                    </div>
+                    <div class="paypalvipps-wrapper">
+                    <input type="radio" id="paypalvipps" name="paymentmethod" value="paypalvipps">
+                    <label for="paypalvipps">Paypal/Vipps</label>
+                    <div class="cards1">
+                    <iconify-icon icon="logos:paypal"></iconify-icon>
+                    </div>
+                    </div>
+                  </form>
+                  <div class="checkout-btn">
+                <a href="Checkout_Success.html">Checkout</a>
+                  </div>
+            </div>
+    </section>
+    </main>
+    <footer class="desktop-footer-sticky">
+        <div class="footer-wrapper">
+            <p>© 2022-2023 Rainydays</p>
+            <div class="icons">
+                <a href="https://www.facebook.com/"><img src="./Images/face.png" alt="facebook logo"></a>
+                <a href="https://www.instagram.com/"><img src="./Images/insta.png" alt="instagram logo"></a>
+                <a href="https://www.youtube.com/"><img src="./Images/youtube.png" alt="youtube logo"></a>
+                <a href="https://www.twitter.com/"><img src="./Images/twitter.png" alt="twitter logo"></a>
+            </div>
+        </div>
+    </footer> 
