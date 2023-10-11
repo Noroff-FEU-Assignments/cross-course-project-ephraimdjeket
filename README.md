@@ -51,6 +51,8 @@ npm run start
 
 [My LinkedIn page](www.linkedin.com/in/ephraim-djeket)
 
+[My Discord] (dertzey.eth)
+
 ## Acknowledgments
 
 Noroff FED teachers and classmates for helping me with clarifying things and assist me whenever I got stuck.
