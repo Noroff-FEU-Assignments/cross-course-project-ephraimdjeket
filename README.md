@@ -51,7 +51,7 @@ npm run start
 
 [My LinkedIn page](www.linkedin.com/in/ephraim-djeket)
 
-[My Discord] (dertzey.eth)
+My Discord - dertzey.eth
 
 ## Acknowledgments
 
