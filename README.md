@@ -1,6 +1,7 @@
 # Rainy Days
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image](https://github.com/Noroff-FEU-Assignments/cross-course-project-ephraimdjeket/assets/45997915/ac3655f2-1f24-4622-8422-da0e6c1f5ce6)
+
 
 An online shop selling men's and women's rain jackets.
 
@@ -18,9 +19,9 @@ You can add some bullet points if you'd like to:
 
 ## Built With
 
-- [HTML]
-- [CSS]
-- [Javascript]
+- HTML
+- CSS
+- Javascript
 
 ## Getting Started
 
